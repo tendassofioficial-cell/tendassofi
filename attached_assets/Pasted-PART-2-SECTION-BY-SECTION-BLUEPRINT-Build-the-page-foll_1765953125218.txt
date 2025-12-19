@@ -1,0 +1,125 @@
+PART 2: SECTION-BY-SECTION BLUEPRINT Build the page following this structure exactly. Map the provided copy to these sections.
+
+Global Elements:
+
+Navigation: Floating pill-shaped navbar with a glassmorphism effect (backdrop-blur-md bg-white/70). Logo: "Tendas Soft" (Serif). Links: Home, Serviços, Sobre, Contato. Button: "Orçamento" (Primary Orange).
+
+Background: Warm cream (#FFFDF5) with subtle grain texture opacity 0.03.
+
+Section 1: Hero
+
+Layout Strategy: Split Screen (Text Left, Image Right).
+
+Content:
+
+Badge: Pill shape, Yellow bg (#F3F877). Text: "Desde 2008 na Baixada"
+
+H1: "Não deixe o sol ou a chuva arruinarem seu evento na Baixada Santista." (Serif font, Dark Green).
+
+Subheadline: "Aluguel de Tendas, Mesas e Cadeiras com a rapidez e a confiança de quem atende a região há mais de 16 anos. Garanta o conforto dos seus convidados agora."
+
+CTA Group:
+
+Primary Button: "QUERO UM ORÇAMENTO RÁPIDO" (Orange, rounded-full, arrow icon).
+
+Secondary Text: "Montagem ágil e segura." (Small text with check icon next to button).
+
+Visual: A high-quality image of a beautiful outdoor wedding or party under a clean white tent. The image must have a unique shape: Top-left corner sharp, other corners heavily rounded (organic feel). Floating "sticker" on image: "16+ Anos de História" in a yellow circle.
+
+Section 2: The Problem (Transition)
+
+Layout Strategy: Centered text block with a decorative squiggly line above it.
+
+Visual Style: Minimalist, lots of white space.
+
+Content:
+
+H2: "O pesadelo de todo organizador: o tempo virar de repente."
+
+Body: "Você planejou tudo com carinho, reuniu as pessoas importantes, mas na Baixada Santista, o clima é imprevisível. Um sol escaldante ou uma chuva inesperada podem acabar com a animação da sua festa em minutos. Não corra esse risco. A Tendas Soft oferece a infraestrutura perfeita."
+
+Section 3: Services (The Dark Green Section)
+
+Layout Strategy: Bento Grid / Card Grid.
+
+Visual Style: Dark Background (#303C28). Text is Light (#F1F5F9). Cards are a mix of Accent Colors (Yellow, White) and Dark cards with borders.
+
+Header: "Tudo o que você precisa para um evento confortável."
+
+Cards:
+
+Card 1 (Large - Yellow #F3F877 bg, Dark text): "Tendas de Alta Resistência". Icon: Tent/Umbrella. Text: "Proteção imediata e estética profissional. Vários tamanhos para quintais ou áreas abertas."
+
+Card 2 (Medium - White bg, Dark text): "Mesas e Cadeiras". Icon: Chair. Text: "Material plástico resistente e higienizado. Jogos completos."
+
+Card 3 (Medium - Glass/Dark border): "Eventos Corporativos". Icon: Building. Text: "Estruturas para empresas e grandes eventos na praia."
+
+Decoration: Add a "99% Satisfação" badge floating near the grid.
+
+Section 4: Why Us (Split Feature)
+
+Layout Strategy: Image Left, Content Right.
+
+Visual Style: Cream background.
+
+Visual: Image of a team member stacking chairs or organizing a tent, looking professional.
+
+Content:
+
+H2: "Por que a Baixada Santista escolhe a Tendas Soft há 16 anos?"
+
+List (Styled as individual cards or check items):
+
+Item 1: "Experiência Local Comprovada" (Desc: 500+ projetos em Santos, Guarujá, São Vicente).
+
+Item 2: "Índice de 99% de Satisfação" (Desc: Clientes reais que confiam no nosso prazo).
+
+Item 3: "Material Impecável" (Desc: Chega de cadeiras sujas. Entregamos tudo pronto para uso).
+
+Section 5: Social Proof (Testimonials)
+
+Layout Strategy: 3-Column Cards.
+
+Visual Style: Cards with a soft border and shadow.
+
+Content:
+
+Card 1: "Tive um excelente atendimento, o Airton foi extremamente educado! Qualidade ótima e preço melhor!" - Matheus Santos.
+
+Card 2: "A equipe foi rápida e montou a cobertura no sábado de manhã. Salvaram a festa!" - Carla M., Guarujá.
+
+Card 3: "Pontualidade na entrega e limpeza do material foram os diferenciais." - Ricardo L., Santos.
+
+Section 6: Footer & Final CTA
+
+Layout Strategy: Large colored block (Primary Orange #FF723F) with centered text.
+
+Content:
+
+H2: "Pronto para garantir o sucesso do seu evento?"
+
+Button: "FALAR COM CONSULTOR AGORA" (White button, Orange text).
+
+Links: (13) 99105-8219 | comercial@tendasoft.com | Atendemos toda a Baixada Santista.
+
+Copyright: © 2024 Tendas Soft.
+
+PART 3: TECHNICAL & INTERACTION GUIDELINES
+
+Framework: React + Tailwind CSS.
+
+Components: Use Shadcn UI for base components (Buttons, Cards).
+
+Icons: Use lucide-react (Tent, Sun, Umbrella, CheckCircle, Phone, Star).
+
+Motion (Performance Critical):
+
+Use motion/react (formerly framer-motion, but use the lightweight imports).
+
+Hero: Staggered fade-in for text. Image scales gently from 0.95 to 1.0.
+
+Scroll: Use whileInView={{ y: 0, opacity: 1 }} initial={{ y: 30, opacity: 0 }} for sections.
+
+Buttons: whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}.
+
+Images: Use placeholders from placehold.co with specific style text (e.g., "Event Tent Outdoor", "White Chairs").
