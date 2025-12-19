@@ -26,9 +26,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] text-heading font-serif">
-              Não deixe o sol ou a <br className="hidden md:block" />
-              chuva arruinarem <br className="hidden md:block" />
-              seu evento.
+              Tendas Sofi: Locação de <br className="hidden md:block" />
+              Tendas na Baixada Santista <br className="hidden md:block" />
+              desde 2008.
             </h1>
 
             <p className="text-lg md:text-xl text-body leading-relaxed max-w-lg">
