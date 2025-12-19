@@ -27,7 +27,7 @@ export default function Problem() {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-body leading-relaxed"
           >
-            Você planejou tudo com carinho, reuniu as pessoas importantes, mas na Baixada Santista, o clima é imprevisível. Um sol escaldante ou uma chuva inesperada podem acabar com a animação da sua festa em minutos. <span className="font-semibold text-primary">Não corra esse risco.</span> A Tendas Soft oferece a infraestrutura perfeita.
+            Você planejou tudo com carinho, reuniu as pessoas importantes, mas na Baixada Santista, o clima é imprevisível. Um sol escaldante ou uma chuva inesperada podem acabar com a animação da sua festa em minutos. <span className="font-semibold text-primary">Não corra esse risco.</span> A Tendas Sofi oferece a infraestrutura perfeita.
           </motion.p>
         </div>
       </div>

@@ -32,7 +32,7 @@ export default function WhyUs() {
           >
             <img
               src={teamImage}
-              alt="Equipe Tendas Soft"
+              alt="Equipe Tendas Sofi"
               className="w-full h-[600px] object-cover rounded-[3rem] rounded-bl-none shadow-xl"
             />
             {/* Decorative box */}
@@ -47,7 +47,7 @@ export default function WhyUs() {
               viewport={{ once: true, amount: 0.3 }}
               className="text-3xl md:text-5xl font-serif font-medium leading-tight text-heading"
             >
-              Por que a Baixada Santista escolhe a Tendas Soft há 16 anos?
+              Por que a Baixada Santista escolhe a Tendas Sofi <br /> há 16 anos?
             </motion.h2>
 
             <div className="space-y-6">
