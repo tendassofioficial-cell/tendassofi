@@ -23,7 +23,7 @@ export default function Gallery() {
         >
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Nosso Portfólio</span>
           <h2 className="text-4xl md:text-6xl font-serif font-bold text-heading">
-            Momentos inesquecíveis que ajudamos a criar
+            Momentos inesquecíveis <br /> que ajudamos a criar
           </h2>
         </motion.div>
 
